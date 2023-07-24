@@ -32,6 +32,13 @@
     border-radius: 7px;
     color: red;
 }
+#Read-more:hover{
+    background-color: red;
+    color: #ffffff;
+}
+form{
+    height: auto;
+}
 #Contact-Form form{
     background:linear-gradient(#fd8e57,#ea3369);
     padding: 10%;
@@ -53,6 +60,10 @@
 #submit{
     border-radius: 10px;
     color: red;
+}
+#submit:hover{
+    background-color: red;
+    color: white;
 }
 #Contact-Form input::placeholder{
     color: #fffefd;
@@ -233,6 +244,7 @@ span{
 /* Carousel */
 #carousel{
     background: url(/images/color.jpg);
+    width: 100%;
 }
 #carousel img{
     padding-top: 20%;
@@ -289,7 +301,7 @@ span{
     visibility: visible;
 }
 #hover-para::-webkit-scrollbar {
-    width:5px;
+    width:10px;
 }
 #hover-para::-webkit-scrollbar-track {
     background: white,0.1;; 
