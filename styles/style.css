@@ -315,7 +315,7 @@ span{
 
 /* Content-6 */
 .Content-6{
-    background: url(/images/color.jpg);
+    background-image: url(/images/color.jpg);
     height: 100%;
     width: 100%;
     padding: 5%;
